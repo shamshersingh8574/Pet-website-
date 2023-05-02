@@ -1,0 +1,2017 @@
+/* imp-: 991 to 767 padding-top 60px */
+/* imp-: 767 to 639 padding-top */
+/* imp-: 639 to infinite padding-top 40px */
+@font-face {
+    font-family: 'Wicked Mouse';
+    src: url('../fonts/WickedMouse.woff2') format('woff2'), url('../fonts/WickedMouse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+input,
+select,
+textarea {
+    outline: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1240px;
+}
+
+ul {
+    padding: 0;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 80px;
+    color: #18083e;
+    font-family: "Wicked Mouse";
+}
+
+h2 {
+    font-size: 55px;
+    color: #18083e;
+    font-family: "Wicked Mouse";
+    line-height: 67px;
+}
+
+h3 {
+    font-size: 44px;
+    line-height: 63px;
+    color: #232323;
+    font-family: "Wicked Mouse";
+}
+
+h4 {
+    font-size: 34px;
+    line-height: 25px;
+    color: #18083e;
+    font-family: "Wicked Mouse";
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 64px;
+    color: #232323;
+    font-family: "Wicked Mouse";
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.bgColor {
+    transition: all 0.4s;
+    background-color: white;
+    padding: 0 !important;
+    transition: all 1s;
+}
+
+/*=========================== heder css Start ==========================*/
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+    padding: 16px 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-logo {
+    width: 20%;
+}
+
+.nav {
+    width: 50%;
+    padding: 0px 65px 0px 25px;
+}
+
+.navbar-btn {
+    width: 20%;
+    text-align: right;
+}
+
+.nav a {
+    font-size: 16px;
+    line-height: 64px;
+    color: #18083e;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav ul li a {
+    font-size: 16px;
+    line-height: 64px;
+    color: #18083e;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.navbar-btn a {
+    /* width: 166px;
+    */
+    /* height: 52px;
+    */
+    border-radius: 26px;
+    filter: drop-shadow(3.536px 3.536px 2.5px rgba(0, 0, 0, 0.1));
+    background-color: #ffffff;
+    padding: 15px 36px;
+    font-size: 16px;
+    line-height: 64px;
+    color: #18083e;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.navbar-btn a span {
+    margin-right: 13px;
+}
+
+.navbar-btn-mobile-size {
+    display: none;
+}
+
+/* nav icon mobile view*/
+.navabar-cross-icons,
+.navabar-normal-icons {
+    display: none;
+    padding-right: 10px;
+}
+
+/* nav mobile view */
+body.oerflow-hidden {
+    overflow: hidden;
+}
+
+/*=========================== heder css End ==========================*/
+/*=========================== Banner css Start ==========================*/
+.banner {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: #33cfff;
+    width: calc(50% + 113px);
+    height: 38rem;
+    top: 19px;
+    right: 0px;
+    left: 51%;
+    transform: rotate(-24deg);
+    border-radius: 199px 0px 0px 200px;
+    -moz-border-radius: 199px 0px 0px 200px;
+    -webkit-border-radius: 300px 0px 0px 353px;
+    border: 0px solid #000000;
+}
+
+.banner-img1 {
+    width: 55%;
+    top: 133px;
+    position: relative;
+    left: 168px;
+}
+
+.banner-img7-cat-text p {
+    font-size: 17px;
+    line-height: 25px;
+    color: #18083e;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.banner-img7-text {
+    position: absolute;
+    left: 62%;
+    bottom: 6%;
+    background: white;
+    padding: 0px 13px 0px 10px;
+    text-align: center;
+    border-radius: 36px;
+    box-shadow: rgb(0 0 0 / 30%) -2px 0px 25px -12px;
+}
+
+.banner-img7-cat-text h4 {
+    padding: 21px 9px 10px;
+    font-size: 20px;
+}
+
+.banner-img7-cat-text {
+    position: relative;
+    bottom: 35px;
+}
+
+.banner-img7 {
+    position: relative;
+    top: -33px;
+}
+
+.banner-main {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.banner-text {
+    width: 50%;
+    padding-top: 175px;
+}
+
+.banner-img {
+    position: relative;
+    width: 50%;
+}
+
+.banner-img2,
+.banner-img3,
+.banner-img4,
+.banner-img5,
+.banner-img6 {
+    position: absolute;
+    border-radius: 50%;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+}
+
+.banner-img2 {
+    left: -15px;
+    top: 40%;
+    background: #f38549;
+}
+
+.banner-img3 {
+    left: 80%;
+    top: 24%;
+    background: #7dbfe5;
+}
+
+.banner-img4 {
+    left: 96%;
+    top: 40%;
+    background: #ea6185;
+}
+
+.banner-img5 {
+    left: 27%;
+    top: 8%;
+    background: white;
+}
+
+.banner-img6 {
+    left: 15%;
+    top: 69%;
+    background: rgb(237, 224, 213);
+}
+
+.banner-text-h1-p h1 {
+    max-width: 620px;
+    padding-right: 45px;
+}
+
+.banner-text-h1-p h1 {
+    padding-right: 78px;
+}
+
+.banner-btn a {
+    padding: 17px 27px;
+    border-radius: 35px;
+    filter: drop-shadow(3.536px 3.536px 2.5px rgba(0, 0, 0, 0.1));
+    background-color: #6844b7;
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+.banner-btn a i {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #f38549;
+    color: white;
+    margin-left: 9px;
+}
+
+.banner-text-btn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-btn-text a {
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: underline;
+    color: #18083e;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.banner-btn-text {
+    padding-left: 24px;
+}
+
+.banner-text-dog-care {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 115px;
+    padding-left: 71px;
+    width: 100%;
+}
+
+.banner-text-dog-care-img {
+    background: #fedb55;
+    width: 205px;
+    height: 184px;
+    border-radius: 40px;
+    background-color: #fedb55;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-text-dog-care-text {
+    width: 62%;
+    padding-left: 22px;
+}
+
+.banner-text-dog-care-text p:nth-child(2) {
+    font-size: 24px;
+    line-height: 30px;
+    color: #18083e;
+    font-weight: 700;
+    font-family: "Poppins";
+    padding-right: 112px;
+    padding-bottom: 4px;
+}
+
+.banner-text-dog-care-text p:nth-child(3) {
+    color: #18083e;
+}
+
+.banner-text-btn {
+    padding-top: 43px;
+}
+
+.banner-text-h1-p p {
+    padding-top: 10px;
+    padding-right: 78px;
+}
+
+.banner-text-dog-care-img-video {
+    position: absolute;
+    left: -32px;
+    top: 29px;
+}
+
+.banner-text-dog-care-mobile-size {
+    display: none;
+}
+
+/* animation */
+.box,
+.box-3,
+.box-2,
+.box-5 {
+    align-self: flex-end;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.box-3 {
+    animation-duration: 4s;
+}
+
+.box-2 {
+    animation-duration: 4s;
+}
+
+.box-5 {
+    animation-duration: 5s;
+}
+
+.bounce-2 {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+
+.bounce-5 {
+    animation-name: bounce-5;
+    animation-timing-function: ease;
+}
+
+.bounce-3 {
+    animation-name: bounce-3;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce-2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce-3 {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounce-5 {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*=========================== Banner css End ==========================*/
+/*=========================== Pet story css Start ==========================*/
+.pet-story {
+    padding: 95px 0px 25px 0px;
+    position: relative;
+}
+
+section.pet-story:before {
+    content: '';
+    background: #e9faff;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    top: 242px;
+}
+
+.pet-story-main {
+    background-color: #1f2130;
+    border-radius: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 0px 30px;
+}
+
+.pet-story-img-text-all {
+    width: 23.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white !important;
+    bottom: 41px;
+    padding: 10px;
+    border-radius: 35px;
+    margin: 0 0px;
+    transform: translate(0px, 17px);
+    transition: all 1.8s;
+    position: relative;
+}
+
+.pet-story-img-text-all:hover {
+    transform: scale(1.1);
+    position: relative;
+    background: #713edd;
+    transform: translate(0px, 0);
+    transition: all 1.5s;
+    bottom: 66px;
+}
+
+.pet-story-img-text-1 h4 {
+    font-size: 34px;
+    line-height: 64px;
+    color: #ffffff;
+    font-family: "Wicked Mouse";
+    padding-right: 18px;
+}
+
+.pet-story-img-text-1 p {
+    color: #ffffff;
+}
+
+.pet-story-img-text-2 p:nth-child(2) {
+    font-size: 24px;
+    line-height: 64px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.pet-story-img-text-2 p:nth-child(3) {
+    color: #ffffff;
+}
+
+.pet-story-img-text-3 p:nth-child(2) {
+    font-size: 24px;
+    line-height: 64px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.pet-story-img-text-3 p:nth-child(3) {
+    color: #ffffff;
+    text-align: center;
+}
+
+.pet-story-img-text-4 p:nth-child(2) {
+    font-size: 24px;
+    line-height: 64px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.pet-story-img-text-4 p:nth-child(3) {
+    color: #ffffff;
+}
+
+.pet-story-img-text-1-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet-story-img-text-1 {
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pet-story-img-text-4-img {
+    padding-top: 45px;
+}
+
+/*=========================== Pet story css End ==========================*/
+/*=========================== About-us css Start ==========================*/
+.about-us {
+    background-color: #e9faff;
+    padding-bottom: 50px;
+}
+
+.about-us-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-us-main-img {
+    width: 31%;
+}
+
+.about-us-main-text {
+    width: 63%;
+    padding-top: 66px;
+}
+
+.about-us-main-text p:nth-child(2) {
+    font-size: 22px;
+    line-height: 30px;
+    color: #232323;
+    font-weight: bold;
+    font-family: "Gotham";
+    padding-top: 5px;
+}
+
+.about-us-main-text p:nth-child(3),
+.about-us-main-text p:nth-child(4),
+.about-us-main-text p:nth-child(5) {
+    padding-top: 20px;
+}
+
+.about-btn {
+    padding-top: 50px;
+}
+
+/*=========================== About-us css End ==========================*/
+/*=========================== our-services css Start ==========================*/
+.our-services {
+    padding: 60px 0 0 0;
+}
+
+.our-services-main-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.our-services-main-card-1 {
+    width: 23.8%;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 30%) -2px 0px 25px -12px;
+    border-radius: 30px;
+    transform: scale(1);
+    transition: transform 600ms ease-out;
+    padding: 24px;
+    transition: all 1.5s;
+}
+
+.our-services-main-card-1:hover {
+    transform: scale(1.1);
+    transition: transform 600ms ease-out;
+    position: relative;
+    background: #f38549;
+    color: white !important;
+}
+
+.our-services-main-card-1:hover * {
+    color: white !important;
+}
+
+.our-services-main-text {
+    text-align: center;
+    padding: 0px 223px;
+}
+
+.our-services-main-card-1 p:nth-child(2) {
+    font-size: 24px;
+    line-height: 25px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    padding: 11px 0px 2px;
+}
+
+.our-services-main-card-1 p:nth-child(4) {
+    opacity: 0.702;
+    font-size: 16px;
+    line-height: 64px;
+    color: #6844b7;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.our-services-main-card-1 p:nth-child(3) {
+    padding: 14px 0px;
+}
+
+.our-services-main-text p {
+    padding-top: 15px;
+}
+
+.service-btn {
+    margin: 0 auto;
+    text-align: center;
+    padding: 62px 0px 0px 0px;
+}
+
+/*=========================== our-services css End ==========================*/
+/*=========================== Pet-Food css Start ==========================*/
+.find-pet {
+    padding-top: 17px;
+    position: relative;
+}
+
+.find-pet::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 300px;
+    background-color: #fefbee;
+    top: 179px;
+    z-index: -1;
+}
+
+.pet-food {
+    background: #fefbee;
+    padding: 60px 0px 84px;
+}
+
+.pet-food-main-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 25px 49px 25px;
+}
+
+.pet-food-main-slide {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pet-food-main-slide-1-img1 {
+    box-shadow: rgb(0 0 0 / 30%) -2px 0px 25px -12px;
+    height: 307px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 35px;
+    margin: 0 7px 23px;
+}
+
+.pet-food-main-slide-1 {
+    width: 23.5%;
+}
+
+.pet-food-main-slide-1-text-icon p:nth-child(3) {
+    font-size: 24px;
+    line-height: 30px;
+    color: #f38549;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.pet-food-main-slide-1-text-icon p:nth-child(2) {
+    padding: 7px 22px 7px 0px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #232323;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.pet-food-main-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet-food-main-btn a:nth-child(1) {
+    border-radius: 29px;
+    background-color: #524eb7;
+    border: 1px solid #ffffff;
+    padding: 12px 32px;
+    color: white;
+}
+
+.pet-food-main h2 {
+    padding: 0px 174px;
+    text-align: center;
+    /* position: relative;
+    */
+    /* z-index: 1;
+    */
+}
+
+.pet-food-main-slide-1-text-icon {
+    padding-left: 13px;
+}
+
+.pet-food-slide.slick-next::before {
+    color: gray !important;
+}
+
+.pet-food-slide.slick-next::before {
+    color: gray !important;
+}
+
+.find-pet-main-mobile {
+    display: none;
+}
+
+/*=========================== Pet-Food css End ==========================*/
+/*=========================== nutritious css Start ==========================*/
+.nutritious {
+    padding-top: 26px;
+}
+
+.nutritious-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nutritious-main-img {
+    width: 48%;
+}
+
+.nutritious-main-text {
+    width: 52%;
+    padding-top: 64px;
+}
+
+.nutritious-main-text h3 {
+    padding-bottom: 15px;
+}
+
+.nutritious-main-icon-text i {
+    color: #f38549;
+    padding-right: 15px;
+}
+
+.nutritious-main-icon-text {
+    display: flex;
+    align-items: baseline;
+    padding: 14px 0 0 0;
+}
+
+.nutritious-main-icon-text p {
+    word-break: break-all;
+}
+
+.nutritious-btn {
+    padding-top: 50px;
+}
+
+/*=========================== nutritious css End ==========================*/
+/*=========================== find-pet css Start ==========================*/
+.find-pet-main {
+    position: relative;
+}
+
+.find-pet-main h4 {
+    position: absolute;
+    top: 152px;
+    left: 27%;
+    color: white;
+    text-align: center;
+}
+
+/*=========================== find-pet css End ==========================*/
+/*=========================== review css Start ==========================*/
+.review {
+    padding-top: 75px;
+}
+
+.review-main-slide {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review-main-slide-1-star i {
+    color: #ffc107;
+    font-size: 14px;
+}
+
+.review-main-slide-1 {
+    width: 32.2%;
+}
+
+.review-main-slide-1-text {
+    padding: 27px;
+    box-shadow: rgb(0 0 0 / 30%) -2px 0px 25px -12px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.review-main-slide-1-text p:nth-child(2) {
+    padding-top: 15px;
+}
+
+.review-main-slide-1-img-text-icon {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 23px;
+}
+
+.review-main-slide-1-logo-img {
+    padding-right: 6px;
+}
+
+.review-main-text {
+    text-align: center;
+}
+
+.review-main-text h3 {
+    color: #18083e;
+}
+
+.review-main-text p {
+    padding: 10px 222px 28px;
+}
+
+.reviewsSlide .slick-next::before {
+    color: gray !important;
+    top: -68px;
+    position: absolute;
+    font-size: 32px;
+    left: 37px;
+}
+
+.reviewsSlide .slick-prev::before {
+    color: gray !important;
+    top: -68px;
+    position: absolute;
+    font-size: 32px;
+    right: 18px;
+}
+
+/*=========================== review css End ==========================*/
+/*=========================== ask-anything css Start ==========================*/
+.ask-anything {
+    padding-top: 60px;
+}
+
+.ask-anything-main {
+    position: relative;
+}
+
+.ask-anything-main-text {
+    position: absolute;
+    top: 118px;
+    color: white;
+    text-align: center;
+}
+
+.ask-anything-main-text h4 {
+    color: white;
+}
+
+.ask-anything-main-text p {
+    color: white;
+    padding: 24px 237px;
+}
+
+.ask-anything-main-text form {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.ask-anything-main-text form input {
+    padding: 15px 140px 15px 21px;
+    border-radius: 100px;
+    border: none;
+    width: 100%;
+}
+
+.email-btn {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+}
+
+.email-btn a {
+    width: 165px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #534db7;
+    border: 1px solid #ffffff;
+    padding: 7px 20px;
+    color: white;
+    border: none;
+}
+
+.ask-anything-main-mobile {
+    display: none;
+}
+
+input[type=email] {
+    /* width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    */
+}
+
+/*=========================== ask-anything css End ==========================*/
+/*=========================== footer css Start ==========================*/
+.footer {
+    padding-top: 48px;
+}
+
+.ftr {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.ftr-col-1,
+.ftr-col-2,
+.ftr-col-3,
+.ftr-col-4 {
+    width: 25%;
+}
+
+.ftr-col-2,
+.ftr-col-3,
+.ftr-col-4 {
+    text-align: right;
+}
+
+.ftr-col-2 ul {
+    padding-left: 145px;
+    text-align: start;
+}
+
+.ftr-col-3 ul {
+    padding-left: 155px;
+    text-align: start;
+}
+
+.ftr-col-4 ul {
+    padding-left: 170px;
+    text-align: start;
+}
+
+.ftr-col-1-icon-1 li {
+    display: flex;
+    align-items: baseline;
+    color: #534db7;
+    font-size: 28px;
+    padding: 6px 0px;
+}
+
+.ftr-col-1 p:nth-child(2) {
+    padding: 7px 0px;
+}
+
+.ftr ul li a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #232323;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.ftr-col-1-icon-1 {
+    padding-top: 4px;
+}
+
+.ftr-col-1-icon-1 li a {
+    word-break: break-all;
+    font-size: 16px;
+    line-height: 30px;
+    color: #232323;
+    font-weight: 500;
+    font-family: "Poppins";
+    position: relative;
+    left: 14px;
+}
+
+.copy-right-main {
+    background-color: #f5f3fd;
+    padding: 20px 0px;
+    margin-top: 25px;
+}
+
+.copy-right {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*=========================== footer css End ==========================*/
+/* media Query start */
+@media only screen and (max-width:1200px) {
+    .container {
+        width: 970px;
+    }
+
+    .reviewsSlide .slick-next::before {
+        left: 0px;
+    }
+
+    .reviewsSlide.slick-prev::before {
+        right: 0px;
+    }
+
+    .pet-food-slide.slick-next::before {}
+
+    .pet-food-slide.slick-next::before {}
+
+    .nav {
+        width: 53%;
+        padding: 0px 11px 0px 4px;
+    }
+
+    h1 {
+        font-size: 52px;
+        line-height: 71px;
+    }
+
+    .banner-text-dog-care-text p:nth-child(2) {
+        font-size: 24px;
+        padding-right: 0px;
+    }
+
+    .review {
+        padding-top: 80px;
+    }
+
+    .banner-text-dog-care-text {
+        width: 50%;
+        padding-left: 18px;
+    }
+
+    .banner::before {
+        top: 53px;
+        right: 0px;
+        left: 51%;
+    }
+
+    .banner-text-dog-care {
+        padding-left: 23px;
+    }
+
+    .pet-food-main h2 {
+        padding: 0px 81px;
+    }
+
+    h3 {
+        font-size: 36px;
+        line-height: 53px;
+    }
+
+    .nutritious-main-img img {
+        height: -webkit-fill-available;
+        object-fit: cover;
+    }
+
+    .nutritious-main-img {
+        width: 47%;
+    }
+
+    .ask-anything-main-text p {
+        padding: 18px 237px;
+    }
+    .ask-anything-main-text form {
+        max-width: 556px;
+        margin: 0 auto;
+    }
+
+    .ftr-col-3 ul {
+        padding-left: 171px;
+    }
+
+    .ftr-col-2 ul {
+        padding-left: 160px;
+    }
+
+    .ftr-col-4 ul {
+        padding-left: 189px;
+    }
+
+    .pet-food-main-slide-1 {
+        margin: 0 4px;
+    }
+
+    .find-pet-main h4 {
+        top: 119px;
+    }
+
+    .ask-anything-main-text {
+        top: 89px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .container {
+        width: 750px;
+    }
+
+    /* nav mobile view start*/
+    .nav {
+        display: none;
+        position: absolute;
+        top: -7px;
+        background: white;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+        z-index: 111;
+        overflow: hidden;
+    }
+
+    nav.nav.main {
+        display: block;
+    }
+
+    .navabar-normal-icons.navbarIcon-1 {
+        display: none;
+    }
+
+    .navbarIcon-2 {
+        display: block;
+        z-index: 111;
+        font-size: 24px;
+    }
+
+    .navabar-normal-icons {
+        display: block;
+        z-index: 111;
+        font-size: 24px;
+    }
+
+    .header {
+        top: 0px;
+        z-index: 11;
+    }
+
+    .nav ul li a {
+        font-size: 15px;
+        line-height: 41px;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        top: 84px;
+        z-index: 1;
+        height: auto;
+        left: 20px;
+    }
+
+    /* nav mobile view end*/
+    .ftr-col-1,
+    .ftr-col-2,
+    .ftr-col-3,
+    .ftr-col-4 {
+        width: 50%;
+    }
+
+    .ftr-col-2 ul,
+    .ftr-col-3 ul,
+    .ftr-col-4 ul {
+        padding-left: 0;
+    }
+
+    .ftr h5 {
+        text-align: start;
+    }
+
+    .ask-anything-main-text p {
+        padding: 9px 141px;
+        font-size: 14px;
+    }
+
+    .ask-anything-main-text {
+        top: 51px;
+    }
+
+    .ask-anything-main-text form {
+        max-width: 441px;
+        margin: 0 auto;
+    }
+
+    /* .ask-anything-main-text form input {
+        padding: 14px 273px 14px 14px;
+    } */
+
+    h4 {
+        font-size: 28px;
+    }
+
+    .navbar-btn a span {
+        margin-right: 10px;
+    }
+
+    .review-main-text p {
+        padding: 9px 10px 29px;
+    }
+
+    .nutritious-main-text {
+        width: 51%;
+    }
+
+    h3 {
+        font-size: 27px;
+        line-height: 42px;
+    }
+
+    .nutritious-main-img {
+        width: 46%;
+    }
+
+    .pet-food-main-slide-1-text-icon p:nth-child(2) {
+        padding: 12px 0px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .pet-food-main h2 {
+        padding: 0px;
+    }
+
+    h2 {
+        font-size: 39px;
+        line-height: 57px;
+    }
+
+    .find-pet-main h4 {
+        top: 75px;
+        line-height: 20px;
+        right: 166px;
+        font-size: 28px;
+    }
+
+    .find-pet-main h4 {
+        left: 22%;
+    }
+
+    .our-services-main-card-1 {
+        padding: 15px 13px 0px;
+    }
+
+    .our-services-main-text {
+        padding: 0;
+    }
+
+    .pet-story-img-text-all {
+        width: 50%;
+    }
+
+    .banner-text-dog-care-mobile-size {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-text-dog-care-desktop-size {
+        display: none;
+    }
+
+    .copy-right-main {
+        padding: 22px 0px 0px;
+    }
+
+    .banner-text {
+        padding-top: 102px;
+    }
+
+    .banner-text-h1-p h1 {
+        padding-right: 0px;
+    }
+
+    h1 {
+        font-size: 47px;
+        line-height: 67px;
+    }
+
+    .navbar-logo {
+        width: 23%;
+        z-index: 11111;
+        position: relative;
+    }
+
+    .navbar-btn-mobile-size {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .navbar-btn-mobile-size a {
+        padding: 13px 40px;
+        font-size: 16px;
+        line-height: 64px;
+        border: 2px solid #e9dfdf;
+    }
+
+    .navbar-btn-desktop-size {
+        display: none;
+    }
+
+    .banner-text-dog-care {
+        padding-left: 0px;
+        padding-top: 77px;
+    }
+
+    .pet-story {
+        padding: 67px 0px 23px 0px;
+    }
+
+    section.pet-story:before {
+        height: 481px;
+    }
+
+    .banner-img {
+        left: 0px;
+    }
+
+    .our-services {
+        padding: 46px 0 0 0;
+    }
+
+    .our-services-main-card {
+        padding-top: 23px;
+    }
+
+    .our-services-main-text p {
+        padding-top: 9px;
+    }
+
+    .our-services-main-card-1 p:nth-child(3) {
+        padding: 14px 0px 1px;
+    }
+
+    .find-pet {
+        padding-top: 29px;
+    }
+
+    .pet-food {
+        padding: 18px 0px 44px;
+    }
+
+    .pet-food-main-btn {
+        padding: 14px 25px 32px 25px;
+    }
+
+    .nutritious {
+        padding-top: 2px;
+    }
+
+    .review {
+        padding-top: 72px;
+    }
+
+    .review-main-slide-1-text {
+        margin: 0 9px;
+    }
+
+    .review-main-slide-1-img-text-icon {
+        justify-content: center;
+    }
+
+    .ask-anything {
+        padding-top: 50px;
+    }
+
+    .footer {
+        padding-top: 35px;
+    }
+
+    .pet-food-main-slide-1-img1 {
+        margin: 3px 3px 23px;
+    }
+
+    .banner::before {
+        width: calc(50% + 113px);
+        height: 27rem;
+        top: 19px;
+        right: 0px;
+        left: 52%;
+    }
+
+    .banner-img6 {
+        left: 3%;
+        top: 69%;
+    }
+
+    .banner-img7-text {
+        left: 62%;
+        bottom: -31%;
+        padding: 0px 13px 0px 11px;
+    }
+
+    .banner-img3 {
+        left: 80%;
+        top: 17%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .ftr-col-1,
+    .ftr-col-2,
+    .ftr-col-3,
+    .ftr-col-4 {
+        width: 42%;
+    }
+
+    .banner-main {
+        flex-direction: column-reverse;
+    }
+
+    .banner-text {
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .banner-img {
+        position: relative;
+        left: 0px;
+        background: #2dcdff;
+        border-radius: 0px 0px 35px 35px;
+    }
+
+    .about-us-main-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-us-main-text {
+        width: 100%;
+        padding-top: 24px;
+    }
+
+    .our-services-main-card-1 {
+        width: 47%;
+        margin: 9px;
+    }
+
+    .banner-text-btn {
+        justify-content: center;
+    }
+
+    .nutritious-main-img {
+        width: 100%;
+    }
+
+    .nutritious-main-text {
+        width: 100%;
+    }
+
+    .find-pet-main h4 {
+        top: 67px;
+        line-height: 19px;
+        right: 178px;
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 55px;
+    }
+
+    .pet-food-main-slide-1-img1 {
+        height: 253px;
+    }
+
+    .review-main-slide-1-text {
+        border: 1px solid #e9e2e2;
+    }
+
+    .review-main-slide-1-img-text-icon {
+        justify-content: center;
+    }
+
+    .pet-food-main-slide-1-text-icon img {
+        margin: 0 auto;
+    }
+
+    .pet-food-main-slide-1-text-icon {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .pet-food-main-btn {
+        padding: 30px 0px 49px 0px;
+    }
+
+    .ask-anything-main {
+        display: none;
+    }
+
+    .ask-anything-main-mobile {
+        display: block;
+        background-color: #524eb7;
+    }
+
+    .ask-anything-main-mobile-img {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 12px;
+    }
+
+    .ask-anything-main-mobile-img-1 {
+        width: 30%;
+    }
+
+    .ask-anything-main-mobile-img-2 {
+        width: 30%;
+    }
+
+    .ask-anything-main-mobile {
+        position: initial !important;
+        color: white;
+        text-align: center;
+        padding: 26px 0px 0px;
+    }
+
+    .ask-anything-main-mobile-text {
+        position: initial;
+        padding: 27px 0px 0px;
+    }
+
+    .ask-anything-main-mobile-text p {
+        padding: 11px;
+        font-size: 16px;
+    }
+
+    .ask-anything-main-text form {
+        top: 0px;
+    }
+
+    .banner-text-h1-p h1 {
+        max-width: 100%;
+        padding-right: 0px;
+    }
+
+    .banner-text-h1-p p {
+        padding-top: 39px;
+        padding-right: 0px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 0px;
+    }
+
+    .about-us-main-text p:nth-child(3),
+    .about-us-main-text p:nth-child(4),
+    .about-us-main-text p:nth-child(5) {
+        padding-top: 12px;
+    }
+
+    .nutritious-main-text {
+        padding-top: 20px;
+    }
+
+    .banner-img1 {
+        width: 34%;
+        top: 133px;
+        position: initial;
+        left: 168px;
+        margin: 0 auto;
+        padding: 71px 0px 3px;
+    }
+
+    .banner-img7-text {
+        display: none;
+    }
+
+    .banner::before {
+        display: none;
+    }
+
+    .banner-img2 {
+        left: 36px;
+        top: 40%;
+    }
+
+    .banner-img6 {
+        left: 15%;
+        top: 71%;
+    }
+
+    .banner-img4 {
+        left: 83%;
+        top: 51%;
+    }
+
+    .banner-img3 {
+        left: 71%;
+        top: 15%;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .find-pet-main {
+        display: none;
+    }
+
+    .find-pet-main-mobile {
+        background-color: #524eb7;
+        display: block;
+    }
+    .ask-anything-main-text form {
+        max-width: 441px;
+        margin: 0 auto;
+    }
+    .ask-anything-main-text form input {
+        padding: 14px 256px 14px 14px;
+    }
+    .ask-anything-main-text form input {
+        padding: 15px 147px 15px 21px;
+    }
+    .find-pet-main-mobile-img {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .find-pet-main-mobile-img-2,
+    .find-pet-main-mobile-img-1 {
+        width: 34%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-text-h1-p p {
+        padding-top: 11px;
+    }
+
+    .ftr-col-1,
+    .ftr-col-2,
+    .ftr-col-3,
+    .ftr-col-4 {
+        width: 45%;
+    }
+
+    .find-pet-main-mobile h4 {
+        position: initial !important;
+        width: 100%;
+        padding: 26px 0px 6px;
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .find-pet {
+        padding-top: 48px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+ 
+    .banner-text-dog-care-img {
+        width: 205px;
+        height: 235px;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    h4 {
+        font-size: 24px;
+        line-height: 16px;
+    }
+
+    .our-services-main-card-1 {
+        width: 100%;
+    }
+
+    .banner-text-dog-care {
+        padding-top: 61px;
+    }
+
+    .pet-story {
+        padding: 45px 0px 23px 0px;
+    }
+
+    section.pet-story:before {
+        height: 899px;
+    }
+
+    .our-services {
+        padding: 39px 0 0 0;
+    }
+
+    .our-services-main-card {
+        padding-top: 16px;
+    }
+
+    .service-btn {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .pet-food {
+        padding: 33px 0px 44px;
+    }
+
+    .pet-food-main-btn {
+        padding: 18px 0px 31px 0px;
+    }
+
+    .review {
+        padding-top: 52px;
+    }
+
+    .nutritious-main-text {
+        padding-top: 5px;
+    }
+
+    .nutritious {
+        padding-top: 8px;
+    }
+
+    .ask-anything {
+        padding-top: 40px;
+    }
+
+    .ask-anything-main-mobile {
+        padding: 11px 0px 0px;
+    }
+
+    .footer {
+        padding-top: 24px;
+    }
+
+    .pet-food-main h2 {
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+
+    .copy-right-icon {
+        padding-top: 10px;
+        width: 80%;
+    }
+
+    .banner-text {
+        padding-top: 38px;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .pet-story-img-text-all {
+        width: 100%;
+    }
+
+    .pet-story-img-text-3 {
+        padding-top: 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .banner-text-h1-p p {
+        padding-top: 15px;
+    }
+
+    .ftr-col-1,
+    .ftr-col-2,
+    .ftr-col-3,
+    .ftr-col-4 {
+        width: 100%;
+    }
+
+    .ask-anything-main-text form input {
+        padding: 15px 115px 15px 21px;
+    }
+
+    .banner-text-dog-care-text {
+        width: 100%;
+        padding-left: 18px;
+    }
+    .email-btn a {
+        padding: 6px 8px;
+    }
+
+    h4 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    h2 {
+        font-size: 23px;
+        line-height: 37px;
+    }
+
+    .pet-story-img-text-1 h4 {
+        padding-right: 0px;
+    }
+
+    .banner-btn-text {
+        padding-left: 0px;
+        padding-top: 32px;
+    }
+
+    .nutritious-btn {
+        text-align: center;
+    }
+
+    .banner-text-btn {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .find-pet {
+        padding-top: 58px;
+    }
+
+    .navbar-logo {
+        width: 32%;
+        z-index: 11111;
+        position: relative;
+    }
+
+    .copy-right-icon {
+        padding-top: 10px;
+    }
+
+    .copy-right-main {
+        padding: 16px 0px;
+        margin-top: 25px;
+    }
+
+    .banner-text-dog-care {
+        padding-top: 39px;
+    }
+
+    .pet-food-main-btn {
+        display: none;
+    }
+
+    .banner-img2,
+    .banner-img3,
+    .banner-img4,
+    .banner-img5,
+    .banner-img6 {
+        padding: 9px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .banner-text {
+        padding-top: 25px;
+    }
+    .ask-anything-main-text form {
+        max-width: 285px;
+    }
+}
+
+/* media Query End */
